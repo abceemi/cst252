@@ -1,0 +1,33 @@
+#header{
+  background-color: #bce2d6;
+
+
+}
+#content{
+  border: solid 5px #bce2d6;
+  height: 480px;
+  font-family: sans-serif;
+  background-color: #d48066;
+}
+#content img{
+  position:absolute;
+  top:90px;
+  left: 750px;
+  width:25%;
+}
+#bio{
+  position: absolute;
+  left:80px;
+  top:100px;
+  border-style: dotted;
+  border-color: #bce2d6;
+  padding: 30px;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 230%;
+}
+p{
+  font-size: 18px;
+}
