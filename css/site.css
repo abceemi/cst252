@@ -22,7 +22,7 @@ body{
 }
 #bio img{
   position: absolute;
-  left: 1000px;
+  right: 0;
   height:400px;
 }
 .assignments{
