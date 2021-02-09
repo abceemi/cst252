@@ -1,0 +1,30 @@
+body{
+  background-color: #cce6ff;
+}
+#header{
+  background-color: #e6f2ff;
+  text-align: center;
+}
+img{
+  display: block;
+
+  width: 45%;
+}
+#headpic{
+  display: block;
+  background-color: #f7f1f1;
+}
+#bio{
+  background-color: #e6f2ff;
+  height: 400px;
+  text-align: center;
+}
+#bio img{
+  position: absolute;
+  right: 0;
+  height:400px;
+}
+.assignments{
+  background-color: #e6f2ff;
+  height: 200px;
+}
