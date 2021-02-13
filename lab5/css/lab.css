@@ -1,0 +1,17 @@
+body{
+  background-color: #cce6ff;
+}
+#header{
+  background-color: #e6f2ff;
+  text-align: center;
+}
+#headpic{
+  display: block;
+  background-color: #f7f1f1;
+}
+.column img{
+  width: 45%;
+}
+.column{
+  flex: 1;
+}
