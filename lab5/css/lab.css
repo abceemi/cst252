@@ -15,3 +15,7 @@ body{
 .column{
   flex: 1;
 }
+a{
+  justify-content: space-between;
+  margin 20;
+}
