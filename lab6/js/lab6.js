@@ -8,9 +8,9 @@ console.log("Arrays and Objects")
 
 
 // Declare variables
-myTransport = ["Mazda","BMW", "Mazda CX9", "My feet"];
+var myTransport = ["Mazda","BMW", "Mazda CX9", "My feet"];
 
-myMainRide = {
+var myMainRide = {
  make: "Mazda",
  model: "Mazda3",
  color: "grey",
