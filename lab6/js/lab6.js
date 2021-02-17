@@ -8,16 +8,17 @@ console.log("Arrays and Objects")
 
 
 // Declare variables
-var myTransport = ["Mazda","BMW", "Mazda CX9", "My feet"];
+myTransport = ["Mazda","BMW", "Mazda CX9", "My feet"];
 
-var myMainRide = {
+myMainRide = {
  make: "Mazda",
- model: "Mazda3",
- color: "grey",
- year: 2016,
- extras: "5sitter, effective",
- age: function() { return 2016 - this.year;}
-
+ model : "Mazda3",
+ color : "grey",
+ year : 2016,
+ extras : "5sitter, effective",
+ age : function() { return 2016 - this.year;
+ }
+}
 
 
 // Use document.writeln() to neatly output each of your variables,
