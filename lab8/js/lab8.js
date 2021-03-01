@@ -24,18 +24,11 @@ outputEl.appendChild(newEl);
 //array.map(yourFunctionName);
 var result = array.map(addition);
 console.log("Test of arrays:", result);
-//add array to document
-var newEl = document.createElement("p");
-newEl.innerHTML = " Original array:" + JSON.stringify(array);
-outputEl.appendChild(newEl);
 
 //Now use a new anonymous function with map to do some new operation on each of the numbers in your array.
 var result = array.map(function(x,y){
     return results = x-y;
 
 })
-console.log("Addition",result);
-//add array to document
-var newEl = document.createElement("p");
-newEl.innerHTML = " Original array:" + JSON.stringify(array);
-outputEl.appendChild(newEl);
+console.log("addition",result);
+document.write("addition",result);
