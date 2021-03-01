@@ -30,4 +30,3 @@ function userNameSort(){
 //Outside of the function, call the function and output the results with document.write() to neatly output the user's sorted name.
 
 document.write("Here is your Sorted Name:", userNameSort(), "</br>"," Now, what is your social security number?");
- 
