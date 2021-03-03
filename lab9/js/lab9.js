@@ -1,34 +1,18 @@
-// Lab 8: Anon Functions and Callbacks
+// Lab 9: JavaScript for the Web
 // Author: Aimee Castellon
-// Created: February 28, 2021
+// Created: March 2, 2021
 // License: Public Domain
 
-//Create an array of numbers and assign it to a variable.
-//Create a named function that will take a single parameter, do a calculation on it (sqrt, sqr, addition, etc), and return the result.
-function addition(x,y){
-    var results = (x + y >= 1);
-    return results;
-}
+//Use getElementById() to find your output <div> and assign it to a variable outputEl
 
-//Test your function with a few different numbers.
-console.log("Is 5+2 greater than or equal to 1?", addition(5,2));
-console.log("Is 0+0 greater than or equal to 1?", addition(0,0));
-// Use map on your array to apply your function to all the numbers in your array.
-array = [10,2,3,5,6,0]
-console.log("My Array", array);
-//add array to document
-var newEl = document.createElement("p");
-newEl.innerHTML = " Original array:" + JSON.stringify(array);
-outputEl.appendChild(newEl);
+//Create a new element with document.createElement("p") and assign it to a variable new1El
 
-//array.map(yourFunctionName);
-var result = array.map(addition);
-console.log("Test of arrays:", result);
+//Change the html attribute of new1El to say something new.
 
-//Now use a new anonymous function with map to do some new operation on each of the numbers in your array.
-var result = array.map(function(x,y){
-    return results = x-y;
+//Create another new element and assign it to a variable new2El
 
-})
-console.log("addition",result);
-document.write("addition",result);
+//Change the html attribute of new2El to say something else.
+
+//Append both new elements one at a time using appendChild()
+
+//Change the css attributes of at least two elements of your page
