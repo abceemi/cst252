@@ -10,12 +10,12 @@ document.getElementById("output");
 var new1El =
 document.createElement("button");
 //Change the html attribute of new1El to say something new.
-var new1El.inner.HTML = "I am a button";
+var new1El.inner.HTML = ("I am a button");
 //Create another new element and assign it to a variable new2El
 var new2El =
 document.createElement("newbutton")
 //Change the html attribute of new2El to say something else.
-var new2El.inner.HTML = "I am a new button";
+var new2El.inner.HTML = ("I am a new button");
 //Append both new elements one at a time using appendChild()
 targetEl.appendChild(new1El);
 targetEl.appendChild(new2El);
