@@ -6,14 +6,14 @@
 //Borrow the sort() function or my anagram() function from Lab 7.
 function userNameSort(){
   // creates place to input name
-   var userName = window.prompt("What is your name?");
-   console.log ("userName =", userName);
+   //var userName = window.prompt("What is your name?");
+   //console.log ("userName =", userName);
    //splitts the letters of the inputted name
-   var nameArray = userName.split('');
+   //var nameArray = userName.split('');
    //sorts them in alphabetical order?
-   var nameArraySort = nameArray.sort();
+   //var nameArraySort = nameArray.sort();
    //console output
-  console.log("nameArraySort =", nameArraySort);
+  //console.log("nameArraySort =", nameArraySort);
    //array to string
    var nameSorted = nameArraySort.join('');
    //console output
@@ -23,19 +23,28 @@ function userNameSort(){
  }
 //Outside of the function, call the function and output the results with document.write() to neatly output the user's sorted name.
 document.write("Here is your Sorted Name:", userNameSort());
+//end of lab 7
 
-
-//Step 1 locate button
+//button
 var buttonEl = document.getElementById("my-button");
 console.log("button:", buttonEl);
-//Step 2
 
+//input element
+var inputEl = document.getElementById("user-name");
+console.log("input element:", inputEl);
+
+//output element
+var outputEl = document.getElementById("add-name");
+console.log("output element:", outputEl);
 
 //Attach an event listener to your button that does the following:
+titleEl = document.getElementById("output")
 my-button document.addEventListener("click", function(){
   var name = inputEl.value;
   //var name = prompt("Type your name");
-  titleEl.innerText = "Welcome," + name;
+  var newEl = reOrderUserName(name);
+  //titleEl.innerText = "Welcome," + name;
+  outputEl.innerHTML = "<span id=add-name>"+ newName + "</span>";
 })
   //Gets the value of your input field
   //var user-name= inputEl.value;
