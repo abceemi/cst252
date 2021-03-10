@@ -38,7 +38,7 @@ console.log(sortingHouse);
 //that gets the value of #input and assigns it to a variable name
 //runs sortingHat(name) and stores the result in a variable house
 //appends a new styled paragraph to #output that says "The Sorting Hat has sorted you into " + house
-var buttonEl = document.getElementById("button");
+var button = document.getElementById("button");
 
 buttonEl.addEventListener("click", function(){
   //input
