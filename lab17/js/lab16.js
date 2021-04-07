@@ -13,7 +13,6 @@
   var myButton = $("<button>");
   myButton.html("Press me");
   $("#output").append(myButton);
-
   $("h3").click(function(){
     alert("Thanks for the press.");
   });
