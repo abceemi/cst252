@@ -36,4 +36,4 @@ for (var i = 0; i<vehicles.length; i++){
 // we add text (including <p> tags to the end of our output div
 
 
-document.getElementById("output").innerHTML += "<li>" + vehicle.info() + "</p>";
+//document.getElementById("output").innerHTML += "<li>" + vehicle.info() + "</p>";
