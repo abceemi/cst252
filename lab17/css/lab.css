@@ -31,3 +31,17 @@ h3{
   width: 15%;
   height: 25px;
 }
+#button{
+  background-color: blue;
+  width: 20%;
+}
+#button.now{
+  background-color: pink;
+}
+#button2{
+  background-color: pink;
+  width: 20%;
+}
+#button2.now2{
+  background-color: blue;
+}
