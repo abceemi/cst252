@@ -1,0 +1,22 @@
+body{
+  background-color: #cce6ff;
+}
+#header{
+  background-color: #e6f2ff;
+  text-align: center;
+}
+.column img{
+  width: 45%;
+}
+.column{
+  flex: 1;
+}
+
+#header a{
+  color: grey;
+  text-decoration: none;
+  font-size: 20px;
+}
+.row{
+  border: solid 1px green;
+}
